@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-25T00:35:00.316868+00:00",
+  "timestamp": "2024-01-28T00:34:39.783341+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -99,5 +99,72 @@
       "comments": []
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 4,
+      "id": "PR_kwDOLDCSO85lKlal",
+      "title": "Update draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps.md",
+      "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/pull/4",
+      "state": "OPEN",
+      "author": "jbouqui153",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Here is a first draft proposal from Manolo and myself for the use cases section 5 that we can discuss in our next Tuesday call.",
+      "createdAt": "2024-01-26T14:42:15Z",
+      "updatedAt": "2024-01-26T16:49:42Z",
+      "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
+      "baseRefName": "main",
+      "baseRefOid": "495efb376d9a898e654343eda989516a0734789a",
+      "headRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
+      "headRefName": "jbouqui153-patch-1",
+      "headRefOid": "eede324d39c0b6cb8d32d1f315e78ff96768c254",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLDCSO85uCUhS",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "ju7ien",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "I'd drop some words to say \"mentioned in [draft-poidt-ccamp-actn-poi-pluggable-02]\" so as to point to the I-D.",
+          "createdAt": "2024-01-26T16:35:21Z",
+          "updatedAt": "2024-01-26T16:37:01Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOLDCSO85uCYWs",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "ju7ien",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "I'd replace \"ROADM filter port\" by \"ROADM port\" or \"ROADM add/drop port\" (to avoid assuming a particular type of ROADM).",
+          "createdAt": "2024-01-26T16:44:33Z",
+          "updatedAt": "2024-01-26T16:44:33Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOLDCSO85uCaR7",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "ju7ien",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "The 1st set of use cases seems to be missing a consistent end-to-end provisioning item, which is not trivial when moving transponders into routers. I'll try to propose some text next week.",
+          "createdAt": "2024-01-26T16:49:16Z",
+          "updatedAt": "2024-01-26T16:49:42Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
 }
