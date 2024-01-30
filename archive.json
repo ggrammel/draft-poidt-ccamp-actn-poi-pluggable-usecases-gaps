@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-28T00:34:39.783341+00:00",
+  "timestamp": "2024-01-30T00:32:19.355954+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -112,7 +112,7 @@
       "labels": [],
       "body": "Here is a first draft proposal from Manolo and myself for the use cases section 5 that we can discuss in our next Tuesday call.",
       "createdAt": "2024-01-26T14:42:15Z",
-      "updatedAt": "2024-01-26T16:49:42Z",
+      "updatedAt": "2024-01-29T09:54:35Z",
       "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
       "baseRefName": "main",
       "baseRefOid": "495efb376d9a898e654343eda989516a0734789a",
@@ -163,6 +163,46 @@
           "createdAt": "2024-01-26T16:49:16Z",
           "updatedAt": "2024-01-26T16:49:42Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOLDCSO85uKb_A",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "ggalimba56",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-01-29T09:43:57Z",
+          "updatedAt": "2024-01-29T09:43:57Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "Here You probably meant draft-poidt-ccamp-actn-poi-pluggable-02 instead of draft-ietf-teas-actn-poi-pluggable-02",
+              "createdAt": "2024-01-29T09:43:57Z",
+              "updatedAt": "2024-01-29T09:43:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85uKjsg",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "ggalimba56",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-01-29T09:54:35Z",
+          "updatedAt": "2024-01-29T09:54:35Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "I think we should clarify the Optical Restoration from Optical Protection. I agree the Optical protection is not needed as the packet layer is efficient on implementing the traffic protection while I would consider the Optical Restoration useful to recover the optical failure and keep the Router connectivity safe after a fiber cut.",
+              "createdAt": "2024-01-29T09:54:35Z",
+              "updatedAt": "2024-01-29T09:54:35Z"
+            }
+          ]
         }
       ]
     }
