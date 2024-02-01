@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-30T00:32:19.355954+00:00",
+  "timestamp": "2024-02-01T00:34:03.146321+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -97,6 +97,22 @@
       "updatedAt": "2024-01-23T16:54:09Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOLDCSO859wqrr",
+      "title": "From Figure-topo3 to Figure-topo5",
+      "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/issues/5",
+      "state": "OPEN",
+      "author": "mlopezm1",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Is there any reason to skip Figure-topo4 in the document?",
+      "createdAt": "2024-01-31T11:42:14Z",
+      "updatedAt": "2024-01-31T11:42:15Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -112,7 +128,7 @@
       "labels": [],
       "body": "Here is a first draft proposal from Manolo and myself for the use cases section 5 that we can discuss in our next Tuesday call.",
       "createdAt": "2024-01-26T14:42:15Z",
-      "updatedAt": "2024-01-29T09:54:35Z",
+      "updatedAt": "2024-01-30T16:37:21Z",
       "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
       "baseRefName": "main",
       "baseRefOid": "495efb376d9a898e654343eda989516a0734789a",
@@ -201,6 +217,46 @@
               "body": "I think we should clarify the Optical Restoration from Optical Protection. I agree the Optical protection is not needed as the packet layer is efficient on implementing the traffic protection while I would consider the Optical Restoration useful to recover the optical failure and keep the Router connectivity safe after a fiber cut.",
               "createdAt": "2024-01-29T09:54:35Z",
               "updatedAt": "2024-01-29T09:54:35Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85uX-Fe",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-01-30T16:27:20Z",
+          "updatedAt": "2024-01-30T16:27:20Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "We could add two sub-use cases, one were the central frequency is maintained (the path in OLS is restored , but keeping the frequency) (Question  is if it is worth the complexity vs the number of solvable situations).  A second sub-use is where the central frequency is allowed to change (covering more use cases). ",
+              "createdAt": "2024-01-30T16:27:20Z",
+              "updatedAt": "2024-01-30T16:27:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85uYE4m",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-01-30T16:37:20Z",
+          "updatedAt": "2024-01-30T16:37:21Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "Within the Automation/Fulfillment section, we can add \r\n1) Provisioning of optical connection from plug-to-plug\r\n2) Provisioning of IP link with optical connection from plug-to-plug\r\n.....",
+              "createdAt": "2024-01-30T16:37:20Z",
+              "updatedAt": "2024-01-30T16:37:21Z"
             }
           ]
         }
