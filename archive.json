@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-02-06T00:32:19.419260+00:00",
+  "timestamp": "2024-02-08T00:31:59.162474+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -128,7 +128,7 @@
       "labels": [],
       "body": "Here is a first draft proposal from Manolo and myself for the use cases section 5 that we can discuss in our next Tuesday call.",
       "createdAt": "2024-01-26T14:42:15Z",
-      "updatedAt": "2024-02-05T20:09:58Z",
+      "updatedAt": "2024-02-06T15:54:59Z",
       "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
       "baseRefName": "main",
       "baseRefOid": "495efb376d9a898e654343eda989516a0734789a",
@@ -265,6 +265,46 @@
               "body": "Within the Automation/Fulfillment section, we can add \r\n1) Provisioning of optical connection from plug-to-plug\r\n2) Provisioning of IP link with optical connection from plug-to-plug\r\n.....",
               "createdAt": "2024-01-30T16:37:20Z",
               "updatedAt": "2024-01-30T16:37:21Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85vMnbm",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "hayabusagsm",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-02-06T15:36:23Z",
+          "updatedAt": "2024-02-06T15:36:24Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "My comment from last week just adding a note here.  Related to SR-TE  and that the future direction for all providers is to move towards SR-TE, however the there are today technical gaps with SR related to bandwidth management due to SR being stateless that exists in RSVP TE that is statefull, where PCALC provides the auto bandwidth capabilities to provide prioritization of tunnels with DS-TE or setup/hold priorities and other statefull mechanisms for bandwidth management.   I think it maybe a good idea to mention CS-SR (circuit style SR) draft below and make a normative reference the concept draft below as that is exactly what CS-SR is about which is using SR for POI solution.  I believe vendors are working on making enhancements in near future to PCE making a v2 PCE that has a bandwidth management capabilities so that RSVP-TE statefull concepts and features can be possible in SR's stateless framework using SR-PM and path tracing.  \r\nCS-SR draft \r\nhttps://datatracker.ietf.org/doc/draft-schmutzer-spring-cs-sr-policy/ \r\n\r\nCisco has a marketing buzz word they use \"RON\" routed optical networking which I think does make sense intuitively with RON that now a router with low profile pluggable optics can transform into a DWDM switch and provide POI integration at lower cost & sustainability.    I think RON terminology I think could be mentioned in the draft as being synonymous to POI. ",
+              "createdAt": "2024-02-06T15:36:23Z",
+              "updatedAt": "2024-02-06T15:36:24Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85vMzEC",
+          "commit": {
+            "abbreviatedOid": "eede324"
+          },
+          "author": "hayabusagsm",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-02-06T15:54:59Z",
+          "updatedAt": "2024-02-06T15:54:59Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "I agree I with RSVP-TE  existing deployments and future SR-TE that the IP layer can provide sufficient protection for working & protect path, and optical layer to provide the restoration of fiber cut, restoring IP layer router connectivity.  I agree we could add sub use cases.  ",
+              "createdAt": "2024-02-06T15:54:59Z",
+              "updatedAt": "2024-02-06T15:56:26Z"
             }
           ]
         }
