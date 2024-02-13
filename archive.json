@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-02-11T00:35:14.315971+00:00",
+  "timestamp": "2024-02-13T00:32:45.172646+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -128,7 +128,7 @@
       "labels": [],
       "body": "Here is a first draft proposal from Manolo and myself for the use cases section 5 that we can discuss in our next Tuesday call.",
       "createdAt": "2024-01-26T14:42:15Z",
-      "updatedAt": "2024-02-06T15:54:59Z",
+      "updatedAt": "2024-02-12T15:31:27Z",
       "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
       "baseRefName": "main",
       "baseRefOid": "495efb376d9a898e654343eda989516a0734789a",
@@ -146,6 +146,13 @@
           "body": "Within the ## 5. More to be added, it could be considered the use case specific for the Coherent pluggable optics:\r\n\r\n## 5. Coherent pluggable optics (focusing on the coherent pluggable)\r\no\t### a. Provisioning of the Coherent pluggable optics and related parameters (e.g. Client Interface Speed, Line Interface Speed, Frequency, FEC, Modulation, Transmitted Power, SFP Identifier or Reference Number, etc.). Different phases of the implementation shall require different actions for setting the parameters either automatically or by user-defined specifications manually. It included the Network Controllers and the MDSC interactions (e.g. P-PNC to Coherent Pluggable, P-PNC / MDSC, etc.).\r\no\t### b. Discovery / Visibility of the Coherent pluggable optics and related parameters. The above discovery includes inventory discovery by each controller and exposure to the MDSC of the required information for a complete view of the network.\r\no\t### c. Event/fault management of the Coherent pluggable optics and related parameters.\r\no\t### d. Performance management of the Coherent pluggable optics and related parameters.\r\no\t### e. Reconfiguration management of the Coherent pluggable optics following network changes, faults or  and related parameters\r\no\t### f. Correlation of coherent pluggable optics with related nodes and services items (e.g., Port/Interface, Board, Node, Services, etc.).\r\n",
           "createdAt": "2024-02-05T20:09:57Z",
           "updatedAt": "2024-02-05T20:09:57Z"
+        },
+        {
+          "author": "jbouqui153",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Please find, as promised, an updated input from my side in word format, keeping the base use cases as they are in my Pull Request but adding now sub-use cases for use cases 1, 2, 3. You can add your comments/additional sub use cases directly in the word document by activating change control. Tomorrow we can agree with Oscar and all how to proceed further using github or for moment working on this word input. Thank you.\r\n[(2024.02.12) Jeff input for use cases in draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps v1.docx](https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/files/14240186/2024.02.12.Jeff.input.for.use.cases.in.draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps.v1.docx)\r\n",
+          "createdAt": "2024-02-12T15:31:26Z",
+          "updatedAt": "2024-02-12T15:31:26Z"
         }
       ],
       "reviews": [
