@@ -542,8 +542,8 @@ Table of Contents
    component has been successfully recognised, the host device is then
    ready to create and expose the necessary logical arrangements.
 
-5.1.1.2.  Inventory of Coherent DWDM pluggable (‘valid for coherent
-          pluggable’).
+5.1.1.2.  Inventory of Coherent DWDM pluggable ('valid for coherent
+          pluggable').
 
    The domain controller exposes to the MDSC hardware inventory
    information of the devices under its supervision.  For full router
@@ -559,8 +559,8 @@ Table of Contents
    coherent DWDM pluggable with only one client/line rate (e.g.
    1x400GE).
 
-5.1.1.3.  Coherent pluggable OTSi service discovery information (‘valid
-          for coherent pluggable’).
+5.1.1.3.  Coherent pluggable OTSi service discovery information ('valid
+          for coherent pluggable').
 
    Once a router-to-router connection with coherent pluggables has been
    created over a Network Media Channel in the optical Line system, then
