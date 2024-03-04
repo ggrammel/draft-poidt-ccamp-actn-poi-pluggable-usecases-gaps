@@ -13,7 +13,7 @@
 <meta content="
        This document provides general overarching guidelines for control and management of packet over optical converged networks with coherent pluggables and focuses on operators' use cases and network scenarios. It provides a set of use cases which are needed for the control and management of the packet over optical networks which comprise devices with mixes of packet and optical functions where the optical functions may be provided on coherent pluggables. The document provides a gap analysis to solve the use cases. 
     " name="description">
-<meta content="xml2rfc 3.19.1" name="generator">
+<meta content="xml2rfc 3.20.0" name="generator">
 <meta content="coherent" name="keyword">
 <meta content="photonic" name="keyword">
 <meta content="pluggable" name="keyword">
@@ -25,14 +25,14 @@
 <meta content="Packet" name="keyword">
 <meta content="draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.19.1
-    Python 3.11.6
+  xml2rfc 3.20.0
+    Python 3.11.8
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.2
     lxml 4.9.3
-    platformdirs 4.1.0
+    platformdirs 4.2.0
     pycountry 22.3.5
     PyYAML 6.0.1
     requests 2.31.0
@@ -1037,11 +1037,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">POI coherent pluggables</td>
-<td class="right">January 2024</td>
+<td class="right">March 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">de Dios, et al.</td>
-<td class="center">Expires 26 July 2024</td>
+<td class="center">Expires 5 September 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1054,12 +1054,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-01-23" class="published">23 January 2024</time>
+<time datetime="2024-03-04" class="published">4 March 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-07-26">26 July 2024</time></dd>
+<dd class="expires"><time datetime="2024-09-05">5 September 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1120,7 +1120,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 26 July 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 5 September 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1188,6 +1188,34 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
             <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-operators-use-cases" class="internal xref">Operators' Use cases</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1">
+                <p id="section-toc.1-1.5.2.1.1"><a href="#section-5.1" class="auto internal xref">5.1</a>.  <a href="#name-1-end-to-end-multi-layer-vi" class="internal xref">1.   End-to-end multi-layer visibility and management (valid for both)</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1.2.1">
+                    <p id="section-toc.1-1.5.2.1.2.1.1"><a href="#section-5.1.1" class="auto internal xref">5.1.1</a>.  <a href="#name-a-end-to-end-multi-layer-ne" class="internal xref">a.  End-to-end multi-layer network and service topology discovery</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1.2.2">
+                    <p id="section-toc.1-1.5.2.1.2.2.1"><a href="#section-5.1.2" class="auto internal xref">5.1.2</a>.  <a href="#name-b-end-to-end-multi-layer-ev" class="internal xref">b.  End-to-end multi-layer event/fault management (valid for both)</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1.2.3">
+                    <p id="section-toc.1-1.5.2.1.2.3.1"><a href="#section-5.1.3" class="auto internal xref">5.1.3</a>.  <a href="#name-c-end-to-end-multi-layer-pe" class="internal xref">c.  End-to-end multi-layer performance management (valid for both)</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.2">
+                <p id="section-toc.1-1.5.2.2.1"><a href="#section-5.2" class="auto internal xref">5.2</a>.  <a href="#name-2-inter-domain-link-validat" class="internal xref">2.   Inter-domain link validation (valid for coherent pluggable)</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.3">
+                <p id="section-toc.1-1.5.2.3.1"><a href="#section-5.3" class="auto internal xref">5.3</a>.  <a href="#name-3-end-to-end-l3vpn-l2vpn-se" class="internal xref">3.   End-to-end L3VPN/L2VPN service multi-layer provisioning with SLA constraints (TE constraints) (valid for both)</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.4">
+                <p id="section-toc.1-1.5.2.4.1"><a href="#section-5.4" class="auto internal xref">5.4</a>.  <a href="#name-4-multi-layer-protection-wi" class="internal xref">4.   Multi-layer protection with optical restoration support (valid for both but here focusing on the coherent pluggable)</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.5">
+                <p id="section-toc.1-1.5.2.5.1"><a href="#section-5.5" class="auto internal xref">5.5</a>.  <a href="#name-5-more-to-be-added" class="internal xref">5.   More to be added</a></p>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
             <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
@@ -1593,7 +1621,75 @@ document are to be interpreted as described in <span>[<a href="#RFC2119" class="
       <h2 id="name-operators-use-cases">
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-operators-use-cases" class="section-name selfRef">Operators' Use cases</a>
       </h2>
-<p id="section-5-1">This section provides a set of packet over optical use cases which are applicable to any network topologies in Section 5.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-1">This section provides a set of packet over optical general use cases which are applicable to any network topologies in Section 4.
+These use cases are presented following current operators’ priorities order and several of them were already mentioned in IETF118 ccamp meeting back in November [draft-poidt-ccamp-actn-poi-pluggable-02].<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-2">In general those use cases are the same:
+-        for a traditional packet over optical integration based on grey interfaces in the IP routers and use of transponders/muxponders in the optical domain
+-       For a packet over optical integration considering coherent WDM pluggables in the IP routers over a media channel/Network Media channel in the optical domain
+The mention ‘valid for both’ has been added in the name of each use case else ‘valid for coherent pluggable’ when the use case is specific to the coherent pluggable approach.<a href="#section-5-2" class="pilcrow">¶</a></p>
+<div id="end-to-end-multi-layer-visibility-and-management-valid-for-both">
+<section id="section-5.1">
+        <h3 id="name-1-end-to-end-multi-layer-vi">
+<a href="#section-5.1" class="section-number selfRef">5.1. </a><a href="#name-1-end-to-end-multi-layer-vi" class="section-name selfRef">1.   End-to-end multi-layer visibility and management (valid for both)</a>
+        </h3>
+<div id="a-end-to-end-multi-layer-network-and-service-topology-discovery">
+<section id="section-5.1.1">
+          <h4 id="name-a-end-to-end-multi-layer-ne">
+<a href="#section-5.1.1" class="section-number selfRef">5.1.1. </a><a href="#name-a-end-to-end-multi-layer-ne" class="section-name selfRef">a.  End-to-end multi-layer network and service topology discovery</a>
+          </h4>
+<p id="section-5.1.1-1">Target is to have a full end-to-end multi-layer view from all the layers and their dependencies: service layer (e.g. L3VPN/L2VPN), transport layer (RSVP-TE, SR-TE), IP layer (IGP), Ethernet layer, OTN L1 layer (optional), DWDM L0 layer, OMS, OTS and fibre.
+The above discovery includes inventory discovery by each controller and exposure to the MDSC of the required information for a complete end-to-end multi-layer view of the network<a href="#section-5.1.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="b-end-to-end-multi-layer-eventfault-management-valid-for-both">
+<section id="section-5.1.2">
+          <h4 id="name-b-end-to-end-multi-layer-ev">
+<a href="#section-5.1.2" class="section-number selfRef">5.1.2. </a><a href="#name-b-end-to-end-multi-layer-ev" class="section-name selfRef">b.  End-to-end multi-layer event/fault management (valid for both)</a>
+          </h4>
+<p id="section-5.1.2-1">Target is to have a full end-to-end multi-layer correlation of events at different layers and domains (e.g. operational-status changes reported at OTS/OMS/OCh/ODUk (optional), IP link level, LSP level, L3VPN/L2VPN level etc.) so that final root cause can be quickly identified and fixed (e.g. fibre cut vs coherent pluggable  failure)<a href="#section-5.1.2-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="c-end-to-end-multi-layer-performance-management-valid-for-both">
+<section id="section-5.1.3">
+          <h4 id="name-c-end-to-end-multi-layer-pe">
+<a href="#section-5.1.3" class="section-number selfRef">5.1.3. </a><a href="#name-c-end-to-end-multi-layer-pe" class="section-name selfRef">c.  End-to-end multi-layer performance management (valid for both)</a>
+          </h4>
+<p id="section-5.1.3-1">Target is to have the possibility to analyse through performance monitoring of the different layers mentioned above and be able, in case of end-to-end L2VPN/L3VPN service degradation, to identify the root cause of the degradation. For scaling purposes the target should be upon service fulfilment phase to set up the right TCAs associated to each layer that can allow to meet the L2VPN/L3VPN service SLA (e.g. latency, jitter, BW, etc.)<a href="#section-5.1.3-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="inter-domain-link-validation-valid-for-coherent-pluggable">
+<section id="section-5.2">
+        <h3 id="name-2-inter-domain-link-validat">
+<a href="#section-5.2" class="section-number selfRef">5.2. </a><a href="#name-2-inter-domain-link-validat" class="section-name selfRef">2.   Inter-domain link validation (valid for coherent pluggable)</a>
+        </h3>
+<p id="section-5.2-1">As described in [draft-ietf-teas-actn-poi-pluggable-02] even if the patch cord to connect coherent pluggables in the routers and optical nodes (add/drop filter of the ROADM) need to be done manually, these connections are prone to human mistakes. It would be highly beneficial for operators to have a mean to check/discover that the right pluggables have been connected to the right ROADM filter ports<a href="#section-5.2-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="end-to-end-l3vpnl2vpn-service-multi-layer-provisioning-with-sla-constraints-te-constraints-valid-for-both">
+<section id="section-5.3">
+        <h3 id="name-3-end-to-end-l3vpn-l2vpn-se">
+<a href="#section-5.3" class="section-number selfRef">5.3. </a><a href="#name-3-end-to-end-l3vpn-l2vpn-se" class="section-name selfRef">3.   End-to-end L3VPN/L2VPN service multi-layer provisioning with SLA constraints (TE constraints) (valid for both)</a>
+        </h3>
+<p id="section-5.3-1">This use case is described in <span>[<a href="#I-D.draft-ietf-teas-actn-poi-applicability" class="cite xref">I-D.draft-ietf-teas-actn-poi-applicability</a>]</span> for the SR-TE case which is relevant as target use case for operators. If new connectivity is required between the routers and at optical level then full automation could be achieved. However considering PMO (Present Mode of Operation) in most operators, before an optical path is setup either between two native transponders or between two coherent pluggables in  routers, a detailed optical planning and validation is always required. So, the automation of this use case is considered more for future mode of operations (FMO) and has not the same priority as the previous two use cases<a href="#section-5.3-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="multi-layer-protection-with-optical-restoration-support-valid-for-both-but-here-focusing-on-the-coherent-pluggable">
+<section id="section-5.4">
+        <h3 id="name-4-multi-layer-protection-wi">
+<a href="#section-5.4" class="section-number selfRef">5.4. </a><a href="#name-4-multi-layer-protection-wi" class="section-name selfRef">4.   Multi-layer protection with optical restoration support (valid for both but here focusing on the coherent pluggable)</a>
+        </h3>
+<p id="section-5.4-1">This use case has not the same priority as the previous ones as protection in multi-layer Core/Backhaul networks is usually implemented at IP layer (e.g. FRR with RSVP-TE, TI-LFA with SR and SR policies in SR-TE) to avoid proven protection races.<a href="#section-5.4-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="more-to-be-added">
+<section id="section-5.5">
+        <h3 id="name-5-more-to-be-added">
+<a href="#section-5.5" class="section-number selfRef">5.5. </a><a href="#name-5-more-to-be-added" class="section-name selfRef">5.   More to be added</a>
+      </h3>
+</section>
+</div>
 </section>
 </div>
 <div id="security-considerations">
@@ -1643,8 +1739,12 @@ document are to be interpreted as described in <span>[<a href="#RFC2119" class="
 <span class="refTitle">"Framework for Abstraction and Control of TE Networks ACTN"</span>, <time datetime="2018-12-19" class="refDate">19 December 2018</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/rfc8453/">https://datatracker.ietf.org/doc/rfc8453/</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="MANTRA-whitepaper-IPoWDM-convergent-SDN-architecture">[MANTRA-whitepaper-IPoWDM-convergent-SDN-architecture]</dt>
-      <dd>
+        <dd>
 <span class="refTitle">"IPoWDM convergent SDN architecture - Motivation, technical definition &amp; challenges"</span>, <time datetime="2022-08-31" class="refDate">31 August 2022</time>, <span>&lt;<a href="https://telecominfraproject.com/wp-content/uploads/TIP_OOPT_MANTRA_IP_over_DWDM_Whitepaper-Final-Version3.pdf">https://telecominfraproject.com/wp-content/uploads/TIP_OOPT_MANTRA_IP_over_DWDM_Whitepaper-Final-Version3.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="I-D.draft-ietf-teas-actn-poi-applicability">[I-D.draft-ietf-teas-actn-poi-applicability]</dt>
+      <dd>
+<span class="refAuthor">Peruzzini, F.</span>, <span class="refAuthor">Bouquier, J.</span>, <span class="refAuthor">Busi, I.</span>, <span class="refAuthor">King, D.</span>, and <span class="refAuthor">D. Ceccarelli</span>, <span class="refTitle">"Applicability of Abstraction and Control of Traffic Engineered Networks (ACTN) to Packet Optical Integration (POI)"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-teas-actn-poi-applicability-11</span>, <time datetime="2024-02-22" class="refDate">22 February 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-teas-actn-poi-applicability-11">https://datatracker.ietf.org/doc/html/draft-ietf-teas-actn-poi-applicability-11</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
