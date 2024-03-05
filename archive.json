@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-03-03T00:34:18.071211+00:00",
+  "timestamp": "2024-03-05T00:31:35.380649+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -121,24 +121,26 @@
       "id": "PR_kwDOLDCSO85lKlal",
       "title": "Update draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps.md",
       "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/pull/4",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "jbouqui153",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Here is a first draft proposal from Manolo and myself for the use cases section 5 that we can discuss in our next Tuesday call.",
       "createdAt": "2024-01-26T14:42:15Z",
-      "updatedAt": "2024-02-12T15:31:27Z",
+      "updatedAt": "2024-03-04T15:15:31Z",
       "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
       "baseRefName": "main",
       "baseRefOid": "495efb376d9a898e654343eda989516a0734789a",
       "headRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
       "headRefName": "jbouqui153-patch-1",
       "headRefOid": "eede324d39c0b6cb8d32d1f315e78ff96768c254",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-03-04T15:15:28Z",
+      "mergedAt": "2024-03-04T15:15:28Z",
+      "mergedBy": "oscargdd",
+      "mergeCommit": {
+        "oid": "58683ba821a0f1ff2ac481ac02aee65e3a48cc98"
+      },
       "comments": [
         {
           "author": "japdelarosa",
@@ -312,6 +314,210 @@
               "body": "I agree I with RSVP-TE  existing deployments and future SR-TE that the IP layer can provide sufficient protection for working & protect path, and optical layer to provide the restoration of fiber cut, restoring IP layer router connectivity.  I agree we could add sub use cases.  ",
               "createdAt": "2024-02-06T15:54:59Z",
               "updatedAt": "2024-02-06T15:56:26Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOLDCSO85onStx",
+      "title": "Update draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps.md",
+      "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/pull/6",
+      "state": "MERGED",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-04T16:46:40Z",
+      "updatedAt": "2024-03-04T23:51:08Z",
+      "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
+      "baseRefName": "main",
+      "baseRefOid": "58683ba821a0f1ff2ac481ac02aee65e3a48cc98",
+      "headRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
+      "headRefName": "prepare-first-draft",
+      "headRefOid": "9119e3af5323d8d3fe3db5617961ee165a3e96f1",
+      "closedAt": "2024-03-04T23:51:05Z",
+      "mergedAt": "2024-03-04T23:51:05Z",
+      "mergedBy": "oscargdd",
+      "mergeCommit": {
+        "oid": "a5aa0c4db8a44e513bdf1a10a916b4f2f20ecb86"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLDCSO85yJE8v",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "jbouqui153",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Only minor editorial changes",
+          "createdAt": "2024-03-04T18:12:15Z",
+          "updatedAt": "2024-03-04T18:38:15Z",
+          "comments": [
+            {
+              "originalPosition": 60,
+              "body": "DWDM instead of WDM",
+              "createdAt": "2024-03-04T18:12:15Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 71,
+              "body": "(DWDM pluggable module) instead of (ZR+ pluggable module)",
+              "createdAt": "2024-03-04T18:16:02Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 70,
+              "body": "add \"('valid for coherent pluggable')\" at the end of the title",
+              "createdAt": "2024-03-04T18:16:58Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 87,
+              "body": "The target \"for\" this use case instead of \"is\" this use case",
+              "createdAt": "2024-03-04T18:21:06Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 109,
+              "body": "Add/Drop \"filter\" to be changed to Add/Drop \"port\" of the ROADM",
+              "createdAt": "2024-03-04T18:24:49Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 110,
+              "body": "Here we miss the title which should be the one indicated in line 463 \"##3. End-to-end L3VPN/L2VPN service multi-layer provisioning with SLA constraints (TE constraints) (valid for both) as well as the description in line 464.\r\nThen lines 453 to 460 are sub use cases of this provisioning use case",
+              "createdAt": "2024-03-04T18:33:21Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 123,
+              "body": "See my comment on line 452. Should be 3 and not 4",
+              "createdAt": "2024-03-04T18:33:45Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            },
+            {
+              "originalPosition": 127,
+              "body": "Should be 4. and not 5.",
+              "createdAt": "2024-03-04T18:37:08Z",
+              "updatedAt": "2024-03-04T18:38:15Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85yJ8w0",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "ggalimba56",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T19:47:31Z",
+          "updatedAt": "2024-03-04T19:47:31Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOLDCSO85yLTfd",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-03-04T23:32:12Z",
+          "updatedAt": "2024-03-04T23:32:12Z",
+          "comments": [
+            {
+              "originalPosition": 60,
+              "body": "Done!",
+              "createdAt": "2024-03-04T23:32:12Z",
+              "updatedAt": "2024-03-04T23:32:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85yLUCz",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-03-04T23:33:50Z",
+          "updatedAt": "2024-03-04T23:33:50Z",
+          "comments": [
+            {
+              "originalPosition": 70,
+              "body": "done!",
+              "createdAt": "2024-03-04T23:33:50Z",
+              "updatedAt": "2024-03-04T23:33:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85yLUMu",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-03-04T23:34:33Z",
+          "updatedAt": "2024-03-04T23:34:33Z",
+          "comments": [
+            {
+              "originalPosition": 109,
+              "body": "done!",
+              "createdAt": "2024-03-04T23:34:33Z",
+              "updatedAt": "2024-03-04T23:34:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85yLUSE",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-03-04T23:34:56Z",
+          "updatedAt": "2024-03-04T23:34:56Z",
+          "comments": [
+            {
+              "originalPosition": 123,
+              "body": "I removed numbers and let the autonumbering to do the magic",
+              "createdAt": "2024-03-04T23:34:56Z",
+              "updatedAt": "2024-03-04T23:34:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDCSO85yLUWt",
+          "commit": {
+            "abbreviatedOid": "af04d52"
+          },
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-03-04T23:35:13Z",
+          "updatedAt": "2024-03-04T23:35:14Z",
+          "comments": [
+            {
+              "originalPosition": 127,
+              "body": "Same... removed numbers.",
+              "createdAt": "2024-03-04T23:35:13Z",
+              "updatedAt": "2024-03-04T23:35:14Z"
             }
           ]
         }
