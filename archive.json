@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-03-05T00:31:35.380649+00:00",
+  "timestamp": "2024-03-07T00:29:16.399755+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -111,6 +111,22 @@
       "body": "Is there any reason to skip Figure-topo4 in the document?",
       "createdAt": "2024-01-31T11:42:14Z",
       "updatedAt": "2024-01-31T11:42:15Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOLDCSO86BQWt8",
+      "title": "Check all contributors for next version",
+      "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/issues/7",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "We have submitted last-minute in this version, so some contributors like Manolo and Jose Angel were not included. I'd like to track here the contributors to add.",
+      "createdAt": "2024-03-05T07:58:24Z",
+      "updatedAt": "2024-03-05T07:58:24Z",
       "closedAt": null,
       "comments": []
     }
@@ -520,6 +536,46 @@
               "updatedAt": "2024-03-04T23:35:14Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOLDCSO85otA_N",
+      "title": "Update draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps.md",
+      "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/pull/8",
+      "state": "OPEN",
+      "author": "Sme791",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Just added one line to terminology, MDSC, my name as contributor.\r\n\r\nOn the sections about performance management, is this referring to 15 min/24 hour PM or arbitrary time intervals that can be implemented by streaming telemetry? Any reason to clarify this?",
+      "createdAt": "2024-03-05T11:30:45Z",
+      "updatedAt": "2024-03-05T13:39:11Z",
+      "baseRepository": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
+      "baseRefName": "main",
+      "baseRefOid": "a5aa0c4db8a44e513bdf1a10a916b4f2f20ecb86",
+      "headRepository": "Sme791/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
+      "headRefName": "patch-1",
+      "headRefOid": "a1ff94b5692cd646989a140282c619c43e38a806",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLDCSO85yQpjc",
+          "commit": {
+            "abbreviatedOid": "a1ff94b"
+          },
+          "author": "jbouqui153",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-05T13:39:11Z",
+          "updatedAt": "2024-03-05T13:39:11Z",
+          "comments": []
         }
       ]
     }
