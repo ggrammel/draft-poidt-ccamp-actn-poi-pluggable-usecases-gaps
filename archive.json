@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-02T00:33:03.747745+00:00",
+  "timestamp": "2024-04-04T00:33:43.226418+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -129,6 +129,37 @@
       "updatedAt": "2024-03-05T07:58:24Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOLDCSO86EXzrr",
+      "title": "Discussion on pluggable discovery",
+      "url": "https://github.com/oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps/issues/9",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "- Can the pluggable have \"default values\"? (e.g. application code, frequency...)",
+      "createdAt": "2024-04-02T15:32:35Z",
+      "updatedAt": "2024-04-02T15:53:16Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "body": "Should we add a sentence also meaning that the plugable must start in shutdown mode?",
+          "createdAt": "2024-04-02T15:34:04Z",
+          "updatedAt": "2024-04-02T15:34:04Z"
+        },
+        {
+          "author": "ggrammel",
+          "authorAssociation": "NONE",
+          "body": "OIF-400ZR-010_reduced2.pdf defines for 400ZR, DWDM amplified - Application Code (0x01) a default Channel frequency 193.7THz which suggests it comes pre-configured out of the factory. If such pre-configuration is implemented, it should be learned during discovery phase.",
+          "createdAt": "2024-04-02T15:53:16Z",
+          "updatedAt": "2024-04-02T15:53:16Z"
+        }
+      ]
     }
   ],
   "pulls": [
