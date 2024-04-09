@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-07T00:36:46.172443+00:00",
+  "timestamp": "2024-04-09T00:33:13.929981+00:00",
   "repo": "oscargdd/draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps",
   "labels": [
     {
@@ -142,7 +142,7 @@
       "labels": [],
       "body": "- Can the pluggable have \"default values\"? (e.g. application code, frequency...)",
       "createdAt": "2024-04-02T15:32:35Z",
-      "updatedAt": "2024-04-05T13:02:57Z",
+      "updatedAt": "2024-04-08T13:01:58Z",
       "closedAt": null,
       "comments": [
         {
@@ -172,6 +172,13 @@
           "body": "> The play will come into picture with (1) pre-config from NE or (2) config after plug. The replacement of pluggable falls under (1).\r\n\r\nI agree with both scenarios. It may be obvious, but they rely on the fact that shelf configuration has precedence on any factory default. However, those don't justify that we preclude default values: there are uses cases where the expectation is to only have to enable the interfaces (e.g., single wavelength on dark fiber).",
           "createdAt": "2024-04-05T12:13:08Z",
           "updatedAt": "2024-04-05T13:02:57Z"
+        },
+        {
+          "author": "ggalimba56",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'd add to Julien Comments: the default configuration will be applied in absence of port configuration. I.e. the Pluggable slot has never hosted a pluggable or a service has never configured to that port.",
+          "createdAt": "2024-04-08T13:01:57Z",
+          "updatedAt": "2024-04-08T13:01:57Z"
         }
       ]
     }
