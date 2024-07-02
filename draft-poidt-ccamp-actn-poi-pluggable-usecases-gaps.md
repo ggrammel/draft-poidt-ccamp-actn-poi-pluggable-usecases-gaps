@@ -108,7 +108,7 @@ contributor:
     city: Stockholm/Solna
     country: Sweden
     email: stefan.melin@teliacompany.com
-    
+
 
 normative:
 
