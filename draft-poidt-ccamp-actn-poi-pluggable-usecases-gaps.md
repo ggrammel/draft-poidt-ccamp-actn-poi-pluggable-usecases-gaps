@@ -113,6 +113,12 @@ contributor:
     name: Deborah Brungard
     org: ATT
     email: db3546@att.com
+  
+  -
+    ins: Gert Grammel
+    fullname: Gert GRammel
+    org: Juniper Networks
+    email: ggrammel@juniper.net
 
 
 normative:
@@ -150,17 +156,20 @@ The following terms abbreviations are used in this document:
 
 # Introduction
 
-Packet traffic is predominatly transferred over optical interfaces, some of which connect to optical networks or Optical Line Systems. Optical Line systems have been separated from packet systems, both of which have had specific dedicated devices. In many existing network deployments, packet networks includingb direct connect electrical and optical interfaces and the optical networks are engineered, operated and controlled independently. The operation of these packet and optical line networks is often siloed which results in non-optimal and inefficient networking. Both packet and optical systems have had relatively independent evolution. Optical interface technology has been developed with increasing capacity. Meanwhile standardization has been progressed to a point where interoperable optical specifications are available, especially with the emergence of coherent optical techniques.
+Packet traffic is predominatly transferred over optical interfaces, some of which connect to optical networks or Optical Line Systems. Optical Line systems have been separated from packet systems, both of which have had specific dedicated devices. In many existing network deployments, packet networks including direct connect electrical and optical interfaces and the optical networks are engineered, operated and controlled independently. The operation of these packet and optical line networks is often siloed which results in non-optimal and inefficient networking. Both packet and optical systems have had relatively independent evolution. Optical interface technology has been developed with increasing capacity. Meanwhile standardization has been progressed to a point where interoperable optical specifications are available, especially with the emergence of coherent optical techniques.
 
-Optical component design has continued to improve density to the point where a whole coherent optical terminal system that use to require many circuit packs can now fit onto a single small form factor "coherent plug". Placing coherent plugs in a device with packet functions can reduce network cost, power consumption and footprint as well as improve data transfer rates, reduce latency and expand capacity (note that in some cases, other engineering and deployment considerations still lead to separate packet and optical solutions).
+Optical line systems are analogue and require holistic analog control. Consequently, coordination of control of the coherent plugs (in a device with packet functions) with the control of line systems is highly desirable as this best enables robust network functionality and simplifies network operations. By using coherent pluggables in a device with packet functions, network cost, power consumption and footprint as well as data transfer rates, reduce latency and expand capacity can be improved (note that in some cases, other engineering and deployment considerations still lead to separate packet and optical solutions).
 
-Optical transmission/switching is analogue and requires complex and holistic analog control. Consequently, coordination of control of the coherent plugs (in a device with packet functions) with the control of the rest of the optical network is highly desirable as this best enables robust network functionality and simplifies network operations.
+Meanwhile, optical component design has continued to improve density to the point where packet devices, designed to hold small form factor pluggables can be equipped interchangably with "non-cohernent" and "coherent" pluggables which may be connected to optical line systems or dark fiber. A universal way to control pluggable modules is defined by OIF CMIS{{OIF-CMIS}}. The OIF "Common Management Interface Specification (CMIS) defines a generic management communication interface together with a generic management interaction protocol between hosts and managed modules." It "has been developed to allow host and module software implementers to utilize a common code base across a variety of form factors and across a variety of transmission module capabilities,and to foster the possibility of vendor agnostic management for standardized module functions." "The functional scope of CMIS includes module types which may range from electrical cable assemblies ... and active transceiver modules to versatile coherent DWDM modules with integrated framers."
 
-The combination of these above trends along with the desire to select best in breed components has led to the need for a standard way to control Coherent Modules between coherent pluggables and host device. Coherent Modules are more complex than non-coherent modules and led to extensions of Coherent CMIS {{OIF-CMIS}}. Standardization of CMIS is intended such that a plug from vendor X can be installed in vendor Y's device.
+One can put pluggables into 3 broad categories: 
+- direct connect: Pluggable modules connected via dark fiber in a p2p manner without line system, also known as "grey" interfaces. These pluggables are usually not programmable.
+- networkable: Coherent and PAM pluggables. PAM pluggables are typically attached to p2p Optical Line systems of shorter distance. Coherent pluggables can cover larger distances and more complex optical networks.
+- programmable: both PAM and coherent modules can be programmable whereby modulation parameters can be adjusted in CMIS to trade reach for capacity.
 
 The applicability of Abstraction and Control of TE Networks (ACTN) architecture {{!RFC8453}} to Packet Optical Integration (POI) in the context of IP/MPLS and optical internetworking has been analyzed in {{?I-D.draft-ietf-teas-actn-poi-applicability}}. This document further extends to applicability of ACTN with the integration of coherent pluggables in IP/MPLS devices. An architecture analysis has been carried out by the MANTRA sub-group in the OOPT / TIP group (Open Optical & Packet Transport / Telecom Infra Project) {{MANTRA-whitepaper-IPoWDM-convergent-SDN-architecture}}.
 
-This document provides guidellines for control and management of packet over optical converged networks and it is divided into following sections:
+This document provides guidelines for control and management of packet over optical converged networks and it is divided into following sections:
 
 * Section 3 Packet over optical converged network context
 * Section 4 Network Scenarios
@@ -411,7 +420,7 @@ This scenario, shown in {{figure-topo5}} and extends network topologies {{figure
 
 This section provides a set of packet over optical general use cases which are applicable to any network topologies in Section 4 and both for multi-layer networks using or not coherent pluggables in the routers. These use cases are presented following current operators’ priorities order.
 
-The use cases a generally applicable for both the traditional packet over optical integration based on grey interfaces in the IP routers and use of transponders/muxponders in the optical domain and for the packet over optical integration considering coherent DWDM pluggables in the IP routers over a media channel/Network Media channel in the optical domain. For clarification purposes, the mention ‘valid for both’ has been added in the name of each use case else ‘valid for coherent pluggable’ when the use case is specific to the coherent pluggable approach.
+The use cases a generally applicable for both the traditional packet over optical integration based on grey interfaces in the IP routers and use of transponders/muxponders in the optical domain and for the packet over optical integration considering DWDM pluggables in the IP routers over a media channel/Network Media channel in the optical domain. For clarification purposes, the mention ‘valid for both’ has been added in the name of each use case else ‘valid for coherent pluggable’ when the use case is specific to the coherent pluggable approach.
 
 ## End-to-end multi-layer visibility and management (valid for both)
 
