@@ -113,12 +113,12 @@ contributor:
     name: Deborah Brungard
     org: ATT
     email: db3546@att.com
-  
+
   -
-    ins: Gert Grammel
-    fullname: Gert GRammel
+    name: Gert Grammel
     org: Juniper Networks
     email: ggrammel@juniper.net
+
 
 
 normative:
@@ -160,12 +160,7 @@ Packet traffic is predominatly transferred over optical interfaces, some of whic
 
 Optical line systems are analogue and require holistic analog control. Consequently, coordination of control of the coherent plugs (in a device with packet functions) with the control of line systems is highly desirable as this best enables robust network functionality and simplifies network operations. By using coherent pluggables in a device with packet functions, network cost, power consumption and footprint as well as data transfer rates, reduce latency and expand capacity can be improved (note that in some cases, other engineering and deployment considerations still lead to separate packet and optical solutions).
 
-Meanwhile, optical component design has continued to improve density to the point where packet devices, designed to hold small form factor pluggables can be equipped interchangably with "non-cohernent" and "coherent" pluggables which may be connected to optical line systems or dark fiber. A universal way to control pluggable modules is defined by OIF CMIS{{OIF-CMIS}}. The OIF "Common Management Interface Specification (CMIS) defines a generic management communication interface together with a generic management interaction protocol between hosts and managed modules." It "has been developed to allow host and module software implementers to utilize a common code base across a variety of form factors and across a variety of transmission module capabilities,and to foster the possibility of vendor agnostic management for standardized module functions." "The functional scope of CMIS includes module types which may range from electrical cable assemblies ... and active transceiver modules to versatile coherent DWDM modules with integrated framers."
-
-One can put pluggables into 3 broad categories: 
-- direct connect: Pluggable modules connected via dark fiber in a p2p manner without line system, also known as "grey" interfaces. These pluggables are usually not programmable.
-- networkable: Coherent and PAM pluggables. PAM pluggables are typically attached to p2p Optical Line systems of shorter distance. Coherent pluggables can cover larger distances and more complex optical networks.
-- programmable: both PAM and coherent modules can be programmable whereby modulation parameters can be adjusted in CMIS to trade reach for capacity.
+Meanwhile, optical component design has continued to improve density to the point where packet devices, designed to hold small form factor pluggables can be equipped interchangably with "non-coherent" and "coherent" pluggables which may be connected to optical line systems or dark fiber. A universal way to control pluggable modules is defined by OIF CMIS{{OIF-CMIS}}. The OIF "Common Management Interface Specification (CMIS) defines a generic management communication interface together with a generic management interaction protocol between hosts and managed modules." It "has been developed to allow host and module software implementers to utilize a common code base across a variety of form factors and across a variety of transmission module capabilities,and to foster the possibility of vendor agnostic management for standardized module functions." "The functional scope of CMIS includes module types which may range from electrical cable assemblies and active transceiver modules to versatile coherent DWDM modules with integrated framers."
 
 The applicability of Abstraction and Control of TE Networks (ACTN) architecture {{!RFC8453}} to Packet Optical Integration (POI) in the context of IP/MPLS and optical internetworking has been analyzed in {{?I-D.draft-ietf-teas-actn-poi-applicability}}. This document further extends to applicability of ACTN with the integration of coherent pluggables in IP/MPLS devices. An architecture analysis has been carried out by the MANTRA sub-group in the OOPT / TIP group (Open Optical & Packet Transport / Telecom Infra Project) {{MANTRA-whitepaper-IPoWDM-convergent-SDN-architecture}}.
 
